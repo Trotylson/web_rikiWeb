@@ -9,10 +9,6 @@ templates = Jinja2Templates(directory='templates')
 
 # MAIN PAGES \/
 @app.get('/')
-def welcome(request:Request):
-    return templates.TemplateResponse('welcome.html', {'request': request})
-
-@app.get('/home')
 def home(request:Request):
     return templates.TemplateResponse('home.html', {'request': request})
 
@@ -20,25 +16,21 @@ def home(request:Request):
 def home(request:Request):
     return templates.TemplateResponse('courses.html', {'request': request})
 
-@app.get('/contact')
-def home(request:Request):
-    return templates.TemplateResponse('contact.html', {'request': request})
-
-@app.get('/about')
-def home(request:Request):
-    return templates.TemplateResponse('about.html', {'request': request})
-
 @app.get('/services')
 def home(request:Request):
     return templates.TemplateResponse('services.html', {'request': request})
 
-@app.get('/diverstoolbox')
-def home(request:Request):
-    return templates.TemplateResponse('diverstoolbox.html', {'request': request})
-
 @app.get('/shops')
 def home(request:Request):
     return templates.TemplateResponse('shops.html', {'request': request})
+
+@app.get('/contact')
+def home(request:Request):
+    return templates.TemplateResponse('contact.html', {'request': request})
+
+@app.get('/diverstoolbox')
+def home(request:Request):
+    return templates.TemplateResponse('diverstoolbox.html', {'request': request})
 
 
 # COURSE PAGES \/

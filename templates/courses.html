@@ -22,23 +22,17 @@
   <body class="d-flex flex-column min-vh-100">
     
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-transparent border-dark static-top mb-5 border-1 my-3">
-      <div class="container ">
-        <a class="navbar-brand text-warning p-0" href="/"><b><i><h3>ProinelDive</h3></i></b></a>
-        <button class="navbar-toggler text-light border-1 p-0 border-transparent shadow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="btn text-warning my-0"><i>MENU</i></span>
-          <!-- <span class="navbar-toggler-icon"></span> -->
-        </button>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid" style="margin-left: 1rem; margin-right: 1rem;">
+       <a class="navbar-brand text-warning p-2" href="/"><b><i><h3>ProinelDive</h3></i></b></a>
+       <button class="navbar-toggler text-light border-1 p-0 border-transparent" style="margin-bottom: 2%;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="btn bg-transparent text-warning"><i>MENU</i></span>
+         <!-- <span class="navbar-toggler-icon"></span> -->
+       </button>
         <div class="collapse navbar-collapse nav-tabs border-warning text-center" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link text-light" href="/home"><i>Home</i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/about"><i>O mnie</i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/contact"><i>Kontakt</i></a>
+              <a class="nav-link text-light" href="/"><i>Home</i></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light active bg-transparent border-1 border-warning" href="/courses"><i>Kursy</i></a>
@@ -50,6 +44,9 @@
               <a class="nav-link text-light" href="/shops"><i>Sklep</i></a>
             </li>
             <li class="nav-item">
+              <a class="nav-link text-light" href="/contact"><i>Kontakt</i></a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link text-warning" href="/diverstoolbox"><i>Diver's toolbox</i></a>
             </li>
           </ul>
@@ -58,7 +55,98 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="card-body">
+
+    <div class="container">
+      <div class="container"style="margin-top: 7rem; margin-bottom: 3rem;">
+        <!-- <div class="card-body bg-transparent border-bottom border-warning text-center text-warning" style="margin-top: 7rem; margin-bottom: 3rem;">
+          <h3><i>KURSY</i></h3>
+        </div> -->
+      </div>
+    </div>
+
+<!-- course -->
+<div class="row" style="margin: 1%">
+  <div class="col-sm-4">
+    <a href="/tryDive" class="btn shadow p-0" style="margin: 5%;">
+      <div class="card shadow bg-transparent text-warning border-warning">
+        <b class="p-1"><i>SPRÓBUJ NURKOWANIA</i></b>
+        <img class="card-img-top" src="/static/images/intro.jpg" alt="Card image cap" style="max-width: 25rem;">
+      </div>
+    </a>
+  </div>
+  <div class="col-sm-5 text-center text-light">
+    <div class="card-body bg-transparent  border-warning p-2" style="margin-top: 3rem;">
+      <div class="card-body bg-transparent border-top border-bottom border-warning p-0" style="margin-bottom: 1rem;">
+        <h3 class="text-warning"><i>Spróbuj nurkowania</i></h3>
+      </div>
+      <p><i>'Spróbuj nurkowania' to opcja umożliwiająca zanurkowanie w wodach basenopodobnych lub otwartych wraz z instruktorem, skierowana do osób chcących spróbować swoich sił pod wodą. Podczas nurkowego intro zapoznasz się ze sprzętem nurkowym jak i zaznajomisz z procedurami odbywającymi się podczas odprawy przed i podnurkowej a także doświadczysz wspaniałego podwodnego świata.</i></p>
+        <a href="/tryDive">
+          <button class="btn btn-warning"><i>szczegóły -></i></button>
+        </a>
+    </div>
+  </div>
+  <div class="col-sm text-light" style="margin-top: 1rem;">
+    <div class="card-body bg-transparent  p-0" style="margin-bottom: 1rem;">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm p-3" style="margin-top: 3rem;">
+          <p><i><i class="text-info">CENA:</i> 250,-</i></p>
+          <p><i><i class="text-info">WYMAGANIA:</i> brak</i></p>
+          <p><i><i class="text-info">POZIOM:</i> brak</i></p>
+        </div>
+        <!-- <div class="col-sm"></div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="card-body bg-transparent border-top border-warning p-1" style="margin-bottom: 1rem;"></div>
+    </div>
+
+<!-- course -->
+<div class="row" style="margin: 1%">
+  <div class="col-sm-4">
+    <a href="/owsd" class="btn shadow p-0" style="margin: 5%;">
+      <div class="card shadow bg-transparent text-warning border-warning">
+        <b class="p-1"><i>KURS PODSTAWOWY</i></b>
+        <img class="card-img-top" src="/static/images/cenote.jpeg" alt="Card image cap" style="max-width: 25rem;">
+      </div>
+    </a>
+  </div>
+  <div class="col-sm-5 text-center text-light">
+    <div class="card-body bg-transparent  border-warning p-2" style="margin-top: 3rem;">
+      <div class="card-body bg-transparent border-top border-bottom border-warning p-0" style="margin-bottom: 1rem;">
+        <h3 class="text-warning"><i>Kurs podstawowy</i></h3>
+      </div>
+      <p><i>Kurs ten dedykowany jest dla osób, które nie miały jeszcze styczności z nurkowaniem, a chciałyby poznać piękno oraz tajemnice podwodnego świata. W kursie mogą uczestniczyć również osoby, które w trakcie swoich wakacji odbyły już szkolenie w przejrzystych wodach, podziwiając piękno raf, ale nie do końca czują się pewnie, by nurkować np. w polskich akwenach...</i></p>
+        <a href="/owsd">
+          <button class="btn btn-warning"><i>szczegóły -></i></button>
+        </a>
+    </div>
+  </div>
+  <div class="col-sm text-light" style="margin-top: 1rem;">
+    <div class="card-body bg-transparent  p-0" style="margin-bottom: 1rem;">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm p-3" style="margin-top: 3rem;">
+          <p><i><i class="text-info">CENA:</i> 2000,-</i></p>
+          <p><i><i class="text-info">WYMAGANIA:</i> brak</i></p>
+          <p><i><i class="text-info">POZIOM:</i> brak</i></p>
+        </div>
+        <!-- <div class="col-sm"></div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card-body bg-transparent border-top border-warning p-1" style="margin-bottom: 1rem;"></div>
+</div>
+
+
+<!-- old content -->
+    <div class="card-body" style="margin-top: 5rem;">
       <div class="container">
         <div class="card shadow bg-transparent border-1 border-dark">
           <div class=" shadow text-center text-light p-3">
@@ -579,7 +667,7 @@
         </div>
     </div>
     
-    <footer class="footer bg-black small text-center text-white"><div class="container px-4 px-lg-5">Copyright &copy; SSiCN-RR 2022 ~by Damian Jeździkowski</div></footer>
+    <footer class="footer bg-dark small text-center text-warning fixed-bottom"><div class="container px-4 px-lg-5 p-1"><i>&copy; ProinelDive 2022 ~ D. Jeździkowski</i></div></footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
