@@ -1,7 +1,9 @@
-/* Set a background image by replacing the URL below */
 
 body {
-    background: url('/static//images/riki1.png') no-repeat center center fixed;
+    /* background: url('/static//images/riki1.png') no-repeat center center fixed; */
+    /* background: url('/static//images/divingGirl.jpg') no-repeat center center fixed; */
+    background: url('/static//images/scuba-divers-swimming-under-the-sea-73zu6vq11qkveatj.jpg') no-repeat center center fixed;
+    /* background: #5BCCFF no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -10,3 +12,85 @@ body {
   }
 
 
+/* 60% */
+.bg-main {
+  background: #02101D;
+  /* background: #501602; */
+}
+.text-main {
+  color: #02101D;
+  /* color: #501602; */
+}
+.border-height-main {
+  border-width: 1px;
+  border-style: solid;
+  border-top-color: #02101D;
+  border-bottom-color: #02101D;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  /* color: #501602; */
+}
+.border-bottom-main {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-bottom-color: #02101D;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* 30% MIDI */
+.bg-midi{
+  background: #E7C401;
+}
+.text-midi {
+  color: #E7C401;
+}
+.border-full-midi {
+  border-width: 1px;
+  border-style: solid;
+  border-top-color: #E7C401;
+  border-bottom-color: #E7C401;
+  border-left-color: #E7C401;
+  border-right-color: #E7C401;
+}
+.border-height-midi {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: #E7C401;
+  border-bottom-color: #E7C401;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.border-bottom-midi {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-bottom-color: #E7C401;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* 10% */
+.bg-low{
+  background: white;
+}
+.text-low {
+  color: white;
+}
+.border-height-low {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: white;
+  border-bottom-color: white;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.border-bottom-low {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-bottom-color: white;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
