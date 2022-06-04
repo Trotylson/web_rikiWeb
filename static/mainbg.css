@@ -1,0 +1,16 @@
+
+html {
+    scroll-behavior: smooth;
+   }
+
+body {
+    /* background: url('/static//images/riki1.png') no-repeat center center fixed; */
+    background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url('/static//images/divingGirl2.jpg') no-repeat center center fixed;
+    /* background: linear-gradient( rgba(0,0,0,0.0), rgba(0, 0, 0, 0.8) ), url('/static//images/overp3.jpg') no-repeat center center fixed; */
+    /* background: #5BCCFF no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Audiowide', cursive;
+  }

@@ -1,15 +1,20 @@
+html {
+  scroll-behavior: smooth;
+ }
 
 body {
-    /* background: url('/static//images/riki1.png') no-repeat center center fixed; */
-    /* background: url('/static//images/divingGirl.jpg') no-repeat center center fixed; */
-    background: url('/static//images/scuba-divers-swimming-under-the-sea-73zu6vq11qkveatj.jpg') no-repeat center center fixed;
-    /* background: #5BCCFF no-repeat center center fixed; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    font-family: 'Audiowide', cursive;
-  }
+  background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.9) ), url('/static//images/divingGirl2.jpg') no-repeat center center fixed;
+  /* filter: drop-shadow(16px 16px 20px rgb(93, 96, 126)); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Audiowide', cursive;
+}
+
+#flag {
+  filter: grayscale(55%)
+}
 
 
 /* 60% */
@@ -35,6 +40,14 @@ body {
   border-style: solid;
   border-top-color: transparent;
   border-bottom-color: #02101D;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.border-top-main {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: #02101D;
+  border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
 }
@@ -67,6 +80,14 @@ body {
   border-style: solid;
   border-top-color: transparent;
   border-bottom-color: #E7C401;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.border-top-midi {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: #E7C401;
+  border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
 }
